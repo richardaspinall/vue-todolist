@@ -68,15 +68,19 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 
 ### 3. Scaffolded app
 
-- Via the above tutorial and the following: https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui 
+- Via the above tutorial and the following: https://cli.vuejs.org/guide/creating-a-project.html#vue-create
 
-### 4. Read through documentation 
+### 4. Read through documentation
 
 - https://vuejs.org/v2/guide/
 
+### 5. Learned about components and the module system
+
+- https://vuejs.org/v2/guide/single-file-components.html
+- https://vuejs.org/v2/guide/components-registration.html#Module-Systems
 
 ## Resources
 
 - [Create, Build, and Serve Apps with the Vue CLI](https://www.youtube.com/watch?app=desktop&v=WmrawkHYMTg&feature=youtu.be)
-- [Vue.js CLI](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui )
+- [Vue.js CLI](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
 - [Vue.js Documentation](https://cli.vuejs.org/guide/)
