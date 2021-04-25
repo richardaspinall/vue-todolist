@@ -20,11 +20,11 @@ Learning project for Vue.js
 
 ## Development
 
-- How development is configured and commands for running
+- `npm run serve`
 
 ## Production
 
-- How production is configured
+Run `npm run build` then `serve -s dist` (using serve - NPM)
 
 ## Usage
 
@@ -66,10 +66,17 @@ Learning project for Vue.js
 
 - Skimmed through documentation: https://v3.vuejs.org/guide/introduction.html & https://cli.vuejs.org/guide/
 
--
-
 ### 3. Scaffolded app
+
+- Via the above tutorial and the following: https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui 
+
+### 4. Read through documentation 
+
+- https://vuejs.org/v2/guide/
+
 
 ## Resources
 
 - [Create, Build, and Serve Apps with the Vue CLI](https://www.youtube.com/watch?app=desktop&v=WmrawkHYMTg&feature=youtu.be)
+- [Vue.js CLI](https://cli.vuejs.org/guide/creating-a-project.html#using-the-gui )
+- [Vue.js Documentation](https://cli.vuejs.org/guide/)
