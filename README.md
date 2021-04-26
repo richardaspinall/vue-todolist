@@ -79,6 +79,13 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 - https://vuejs.org/v2/guide/single-file-components.html
 - https://vuejs.org/v2/guide/components-registration.html#Module-Systems
 
+### 6. Tinkering with the app
+
+- Navigating around the scaffolded app and testing out how things connect
+- Removed the router as I won't need that for this app
+- Learned about props vs data
+
+
 ## Resources
 
 - [Create, Build, and Serve Apps with the Vue CLI](https://www.youtube.com/watch?app=desktop&v=WmrawkHYMTg&feature=youtu.be)
