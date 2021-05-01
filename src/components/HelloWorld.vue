@@ -1,10 +1,11 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div>
+    <h1>{{ message }}</h1>
 
     <div id="example-1">
       <button v-on:click="counter += 1">Add 1</button>
       <p>The button above has been clicked {{ counter }} times.</p>
+      <button v-on:click="saveSomething()">Save something</button>
     </div>
   </div>
 </template>
@@ -17,8 +18,19 @@ export default {
   },
   data() {
     return {
+      message: this.msg,
       counter: 0,
     };
+  },
+  methods: {
+    getSomething() {
+      // Not good to do. Avoid updating the prop directly
+      this.message = localStorage.getItem("HelloWorld");
+    },
+    saveSomething() {
+      localStorage.setItem("HelloWorld", "Hello World");
+      this.getSomething();
+    },
   },
 };
 </script>
