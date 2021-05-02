@@ -1,8 +1,8 @@
 # Vue.js TodoList
 
-> **Date started**: (April 2021)
+> **Date started**: 25 April 2021
 
-> **Date ended**:
+> **Date ended**: 2 May 2021
 
 ## Description
 
