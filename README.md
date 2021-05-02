@@ -54,7 +54,7 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 
 ### The coding experience
 
-[Screenshot of the project working]
+[TodoList](https://github.com/richardaspinall/vuejs-todolist/blob/main/docs/TodoList.png)
 
 ## Steps
 
