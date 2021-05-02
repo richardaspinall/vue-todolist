@@ -98,9 +98,10 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 
 - Back in the Todo component I added a delete method to delete the todo. It simply finds the index of the todo and splices its self out, then saves the updated TodoList to storage.
 
-- Everything seemed to be working well until I tried on mobile – the "add" button wasn't working when I tapped on it. I did some searching and got pointed in the wrong direction: `v-on:click` was only for mouses, and I needed to use another `tap` or `press` etc method. Nothing seemed to work though. I eventually realized I had manually initialized the array in the local storage on my computer when I was testing and hadn't automated that when you open the app for the first time!
+- 4 hours is up!
 
-- 4.5 hours is up!
+- Going slightly over: everything seemed to be working well until I tried on mobile – the "add" button wasn't working when I tapped on it. I did some searching and got pointed in the wrong direction: `v-on:click` was only for mouses, and I needed to use another `tap` or `press` etc method. Nothing seemed to work though. I eventually realized I had manually initialized the array in the local storage on my computer when I was testing and hadn't automated that when you open the app for the first time!
+
 
 ## Resources
 
