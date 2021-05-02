@@ -6,17 +6,17 @@
 
 ## Description
 
-Learning project for Vue.js
+TodoList learning project for Vue.js
 
 ---
 
 ## Requirements
 
-- Requirements for installation
+- NPM ~7.6.3
 
 ## Install
 
-- How to install
+- Run `npm install`
 
 ## Development
 
@@ -24,11 +24,7 @@ Learning project for Vue.js
 
 ## Production
 
-Run `npm run build` then `serve -s dist` (using serve - NPM)
-
-## Usage
-
-- How to use
+- Run `npm run build` then `serve -s dist` (using serve - NPM)
 
 ---
 
@@ -39,9 +35,9 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 - [x] Learn the basics of Vue.js
 - [x] Create a TodoList application
 - [x] Stay within the requirements and don't go down rabbit holes
-- [x] ~~Complete within 4 hours~~ > I ended up going a little over (30 min) but as I knew my time was up, it was super focussed tidy up items. 
+- [x] ~~Complete within 4 hours~~ > I ended up going a little over (30 min) but as I knew my time was up, it was super focussed tidy up items.
 
-## V1 requirements
+## App requirements
 
 - [x] Single page of todo items
 - [x] Able to add remove and edit todos
@@ -50,14 +46,27 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 
 ## Results
 
-### What I learned
+Although it's not pretty, behind the scenes a lot of foundational learning went on. I ran out of time to actually do any styling and I wanted to be strict on myself about time and rabbit holes.
 
-### The coding experience
-
+I started to see the power of using a framework like Vue (I've had minimal exposure to these frameworks and libraries such as React, Angular, etc). I can already see that I could refactor what I ended up with, or add a centralized store (lightly read up on)
 
 <img width="500" alt="example" src="https://github.com/richardaspinall/vuejs-todolist/blob/main/docs/TodoList.png">
 
-## Steps
+### What I learned
+
+#### Hard Skills
+
+- Basics of Vue.js: how the framework and structure works.
+- How to use the Vue CLI and create an app through it
+- V directives and life cycle methods.
+- How data via props flows down through components
+
+#### Soft Skills
+
+- Focussed on official documentation gets me very far! I only watched a very short video on using the CLI and a couple of small clips. No tutorial watching / following along.
+- Time boxing a project at a high level and then breaking it down to small sprints was super effective. As soon as I was at my 4 hour deadline, it made me super focussed on fixing anything that didn't meet my goals so I ended up only going slightly over.
+
+### The coding experience steps
 
 ### 1. Created readme with goals and outline of the project
 
@@ -101,7 +110,6 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 - 4 hours is up!
 
 - Going slightly over: everything seemed to be working well until I tried on mobile – the "add" button wasn't working when I tapped on it. I did some searching and got pointed in the wrong direction: `v-on:click` was only for mouses, and I needed to use another `tap` or `press` etc method. Nothing seemed to work though. I eventually realized I had manually initialized the array in the local storage on my computer when I was testing and hadn't automated that when you open the app for the first time!
-
 
 ## Resources
 
