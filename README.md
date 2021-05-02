@@ -36,17 +36,17 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 
 ## Goals
 
-- [ ] Learn the basics of Vue.js
-- [ ] Create a TodoList application
-- [ ] Stay within the requirements (don't go down rabbit holes)
-- [ ] Complete within 4 hours
+- [x] Learn the basics of Vue.js
+- [x] Create a TodoList application
+- [x] Stay within the requirements and don't go down rabbit holes
+- [x] ~~Complete within 4 hours~~ > I ended up going a little over (30 min) but as I knew my time was up, it was super focussed tidy up items. 
 
 ## V1 requirements
 
-- [ ] Single page of todo items
-- [ ] Able to add remove and edit todos
-- [ ] Saves to browser storage
-- [ ] Use CSS framework
+- [x] Single page of todo items
+- [x] Able to add remove and edit todos
+- [x] Saves to browser storage
+- ~~[ ] Use CSS framework~~ I ended up not doing any work with CSS and just focussed on Vue
 
 ## Results
 
