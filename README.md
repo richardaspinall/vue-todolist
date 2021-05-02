@@ -46,7 +46,7 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 - [x] Single page of todo items
 - [x] Able to add remove and edit todos
 - [x] Saves to browser storage
-- ~~[ ] Use CSS framework~~ I ended up not doing any work with CSS and just focussed on Vue
+- [ ] ~~Use CSS framework~~ I ended up not doing any work with CSS and just focussed on Vue
 
 ## Results
 
