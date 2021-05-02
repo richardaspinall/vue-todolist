@@ -55,7 +55,7 @@ Run `npm run build` then `serve -s dist` (using serve - NPM)
 ### The coding experience
 
 
-<img width="1792" alt="example" src="https://github.com/richardaspinall/vuejs-todolist/blob/main/docs/TodoList.png">
+<img width="500" alt="example" src="https://github.com/richardaspinall/vuejs-todolist/blob/main/docs/TodoList.png">
 
 ## Steps
 
