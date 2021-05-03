@@ -26,9 +26,12 @@ export default {
     };
   },
   mounted() {
-    this.todos = JSON.parse(localStorage.getItem("todos"));
-    if (!this.todos) {
+    const todos = JSON.parse(localStorage.getItem("todos"));
+    if (!todos) {
       localStorage.setItem("todos", "[]");
+      this.todos = [];
+    } else {
+      this.todos = todos;
     }
   },
 };
