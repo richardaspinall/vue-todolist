@@ -6,7 +6,7 @@
 
 ## Description
 
-TodoList learning project for Vue.js
+TodoList learning project for Vue.js.
 
 ---
 
