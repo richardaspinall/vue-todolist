@@ -40,6 +40,7 @@ export default {
 <style lang="scss">
 body {
   background-color: #748f83;
+  zoom: 200%;
 }
 #app {
   font-family: lato, Helvetica, Arial, sans-serif;
