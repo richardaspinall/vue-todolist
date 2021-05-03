@@ -2,7 +2,7 @@
 
 > **Date started**: 25 April 2021
 
-> **Date ended**: 2 May 2021
+> **Date ended**: 3 May 2021
 
 ## Description
 
@@ -16,7 +16,7 @@ TodoList learning project for Vue.js.
 
 ## Install
 
-- Run `npm install`
+- `npm install`
 
 ## Development
 
@@ -24,7 +24,7 @@ TodoList learning project for Vue.js.
 
 ## Production
 
-- Run `npm run build` then `serve -s dist` (using serve - NPM)
+- `npm run build` then `serve -s dist` (using serve - NPM package)
 
 ---
 
@@ -49,6 +49,8 @@ TodoList learning project for Vue.js.
 Although it's not pretty, behind the scenes a lot of foundational learning went on. I ran out of time to actually do any styling and I wanted to be strict on myself about time and rabbit holes.
 
 I started to see the power of using a framework like Vue (I've had minimal exposure to these frameworks and libraries such as React, Angular, etc). I can already see that I could refactor what I ended up with, or add a centralized store (lightly read up on)
+
+I spent a tad too long debugging Travis CI. This caused me to stretch out an extra hour but I stopped as soon as I got it working. I will look to learn about CI in a separate project.
 
 <img width="500" alt="example" src="https://github.com/richardaspinall/vuejs-todolist/blob/main/docs/TodoList.png">
 
@@ -111,8 +113,12 @@ I started to see the power of using a framework like Vue (I've had minimal expos
 
 - Going slightly over: everything seemed to be working well until I tried on mobile – the "add" button wasn't working when I tapped on it. I did some searching and got pointed in the wrong direction: `v-on:click` was only for mouses, and I needed to use another `tap` or `press` etc method. Nothing seemed to work though. I eventually realized I had manually initialized the array in the local storage on my computer when I was testing and hadn't automated that when you open the app for the first time!
 
+- Decided to get Travis CI to build the app to Github Pages. Had a bit of trouble following some instructions and specifically setting enviornment variables from the command line as per the following guide. As soon as I set within the Travis web UI, everything worked fine. https://cli.vuejs.org/guide/deployment.html#platform-guides
+
 ## Resources
 
 - [Create, Build, and Serve Apps with the Vue CLI](https://www.youtube.com/watch?app=desktop&v=WmrawkHYMTg&feature=youtu.be)
 - [Vue.js CLI](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
 - [Vue.js Documentation](https://cli.vuejs.org/guide/)
+- [Building to Github Pages](https://cli.vuejs.org/guide/deployment.html#platform-guides)
+- [Travis CI](https://docs.travis-ci.com/)
