@@ -22,8 +22,6 @@ TodoList learning project for Vue.js.
 
 - `npm run serve`
 
-## Production
-
 - `npm run build` then `serve -s dist` (using serve - NPM package)
 
 ---
